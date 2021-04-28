@@ -12,7 +12,7 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.INFO, filename='example.log')
 
 sessionStorage = {}
-db_session.global_init('alice/db/db.db')
+db_session.global_init('db/db.db')
 
 
 class EventApi:
